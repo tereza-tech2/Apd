@@ -16,33 +16,33 @@ const MobileNavbar = ({setNavbar}: Props) => {
         >
 
             
-            <Link to="/Headphones" className='navCard' onClick={() => setNavbar(false)}>
+            <Link to="/Subwoofers" className='navCard' onClick={() => setNavbar(false)}>
         
                 <div className='absolute  drop-shadow-2xl top-[-25%] w-[70%] max-w-[230px] flex items '>
-                    <img src="/HeadphoneNavbar.svg" alt="Picture of a headphone" className='mx-auto' />
+                    <img src="/SubwooferNavbar.svg" alt="Picture of a subwoofer" className='mx-auto' />
                 </div>
-                <span className='font-semibold tracking-wide '>Headphones</span>
+                <span className='font-semibold tracking-wide '>Subwoofers</span>
                 <button className='tracking-wider font-semibold text-[#979797] '>Shop</button>
                 
 
             </Link>
 
 
-            <Link to="/Speakers" className='navCard' onClick={() => setNavbar(false)}>
+            <Link to="/Reproductors" className='navCard' onClick={() => setNavbar(false)}>
 
                 <div className='absolute  drop-shadow-2xl top-[-25%] w-[70%] max-w-[230px]'>
-                    <img src="/SpeakerNavbar.svg" alt="Picture of a Speaker" className=' mx-auto' />
+                    <img src="/ReproductorNavbar.svg" alt="Picture of a Reproductor" className=' mx-auto' />
                 </div>
-                <span className='font-semibold tracking-wide'>Speakers</span>
+                <span className='font-semibold tracking-wide'>Reproductors</span>
                 <button className=' font-semibold text-[#979797] tracking-wider'>Shop</button>
             </Link>
 
 
-            <Link to="/Earphones" className='navCard' onClick={() => setNavbar(false)}>
+            <Link to="/Invisibass" className='navCard' onClick={() => setNavbar(false)}>
                 <div className='absolute  drop-shadow-2xl top-[-25%] w-[70%] max-w-[230px]'>
-                    <img src="/EarphonesNavbar.svg" alt="Picture of an Earphones" className='mx-auto' />
+                    <img src="/InvisibassNavbar.svg" alt="Picture of an Invisibass" className='mx-auto' />
                 </div>
-                <span className='font-semibold tracking-wide'>Headphones</span>
+                <span className='font-semibold tracking-wide'>Subwoofers</span>
                 <button className='tracking-wider font-semibold text-[#979797] '>Shop</button>
             </Link>
 

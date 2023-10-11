@@ -18,9 +18,9 @@ Project is created with:
 To run this project, install it locally using npm:
 
 ```
-$ cd ../audiophile
+$ cd ../mtdistributing
 $ npm install
 $ npm run dev
 ```
 or go to :
-https://audiophile-pied.vercel.app/
+https://mtdistributing-pied.vercel.app/

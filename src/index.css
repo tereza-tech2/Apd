@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'Manrope';
+    }
+}
+
+
+@layer components {
+    .navCard  {
+        @apply flex flex-col w-[90%]  mx-auto justify-center items-center space-y-4   bg-[#F1F1F1] relative rounded md:w-[2/5] pt-16 md:pt-14 p-4 
+    }
+}

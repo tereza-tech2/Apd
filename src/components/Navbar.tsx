@@ -50,7 +50,7 @@ const Navbar = (props: Props) => {
               className="text-white md:ml-16  lg:ml-0 hidden md:block font-bold text-3xl "
               onClick={() => setCart(false)}
             >
-              audiophile
+              mtdistributing
             </Link>
           </div>
           <Link
@@ -58,7 +58,7 @@ const Navbar = (props: Props) => {
             className="text-white md:ml-8 md:hidden font-bold text-2xl"
             onClick={() => setCart(false)}
           >
-            audiophile
+            mtdistributing
           </Link>
           <div className="space-x-4 text-white hidden lg:flex">
             <Link to="/" onClick={() => setCart(false)}>
@@ -66,19 +66,19 @@ const Navbar = (props: Props) => {
                 HOME
               </span>
             </Link>
-            <Link to="/Headphones" onClick={() => setCart(false)}>
+            <Link to="/Subwoofers" onClick={() => setCart(false)}>
               <span className="transition-all hover:text-orange-500 md:text-xl">
-                HEADPHONES
+                SUBWOOFERS
               </span>
             </Link>
-            <Link to="/Speakers" onClick={() => setCart(false)}>
+            <Link to="/Reproductors" onClick={() => setCart(false)}>
               <span className=" transition-all hover:text-orange-500 md:text-xl">
                 SPEAKERS
               </span>
             </Link>
-            <Link to="/Earphones" onClick={() => setCart(false)}>
+            <Link to="/Invisibass" onClick={() => setCart(false)}>
               <span className=" transition-all hover:text-orange-500 md:text-xl">
-                EARPHONES
+                INVISIBASS
               </span>
             </Link>
           </div>
